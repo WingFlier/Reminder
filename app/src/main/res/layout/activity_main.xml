@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/drawer"
     android:layout_height="match_parent"
-    android:background="@color/main"
+    android:background="@color/colorMain"
     android:fitsSystemWindows="true">
 
     <android.support.design.widget.CoordinatorLayout
@@ -39,6 +39,17 @@
             android:id="@+id/viewPager"
             app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
 
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:src="@mipmap/ic_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:layout_marginBottom="@dimen/fab_margin"/>
+
+
     </android.support.design.widget.CoordinatorLayout>
 
     <android.support.design.widget.NavigationView
@@ -47,7 +58,9 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         app:menu="@menu/menu_nav"
-        app:headerLayout="@layout/nav_header"/>
+        app:headerLayout="@layout/nav_header"
+       />
+
 
 
 </android.support.v4.widget.DrawerLayout>

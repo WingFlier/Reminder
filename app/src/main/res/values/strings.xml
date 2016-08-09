@@ -1,8 +1,17 @@
 <resources>
     <string name="app_name">Reminder</string>
     <string name="action_search">Search</string>
-    <string name="remind">Напоминание</string>
+    <string name="remind">Напоминание</string>-
     <string name="view_navigation_open">Open</string>
     <string name="view_navigation_close">Close</string>
+
+
+
+    <string name="tabs_history">History</string>
+    <string name="tabs_ideas">IDeas</string>
+    <string name="tabs_todo">ToDO</string>
+    <string name="tabs_birthdays">birthdays</string>
+
+
 
 </resources>
